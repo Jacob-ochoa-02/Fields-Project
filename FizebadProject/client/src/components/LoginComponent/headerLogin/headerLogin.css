@@ -1,0 +1,53 @@
+.Header-of {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.4s;
+    height: 90px;
+}
+
+.headerLogo {
+    margin-top: 0px;
+    margin-left: 90px;
+    width: 180px;
+    align-self: center;
+}
+
+.headerBarContainer {
+    transition: 0.7s;
+}
+
+.headerBarContainer.solid {
+    transition: 0.7s;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    position: sticky;
+    top: 0;
+    background-color: #212121;
+    opacity: 0.9;
+}
+
+#retBtn {
+    display: flex;
+    align-items: center;
+}
+
+
+.returnBtn {
+    display: flex;
+    margin-right: 70px;
+    border-radius: 100%;
+    background-color: #AF4626;
+    background-image: url('../../../assets/images/iconReturn.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 70%;
+    height: 54px;
+    width: 54px;
+}
+
+.returnBtn:hover {
+    background-color: #b1573b;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.8);
+}
